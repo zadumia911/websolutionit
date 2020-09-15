@@ -213,9 +213,8 @@ section.main-section {
   color:#fff;
   margin-left:10px;
 }
-
-.highlights marquee {
-    color: #fff;
+.highlights marquee a {
+  color: #fff;
 }
 .affliate-area {
   text-align:right;
@@ -227,13 +226,14 @@ section.main-section {
 }
 .affliate-area .affliate {
   background: #F05323;
-  padding:10px 20px;
+  padding: 10px 20px;
   display: inline-block;
+  margin-left: 10px;
 }
 
 /*Heade Top End*/
 .main-menu ul {
-    text-align: center;
+  text-align: left;
 }
 .main-menu ul li a {
     text-transform: capitalize;
@@ -281,16 +281,16 @@ section.main-section {
 .search i {
   color:#fff;
 }
-.ticket {
+.training {
     text-align: right;
 }
-.ticket a {
-    background: #F05323;
-    padding: 10px;
-    color: #fff;
-    text-transform: capitalize;
-    margin-top: 20px;
-    display: inline-block;
+.training a {
+  background: #4659A7;
+  padding: 11px 10px;
+  color: #fff;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: uppercase;
 }
 /*========= Slider Top Css ==========*/
 section.slider-area {
