@@ -1,0 +1,83 @@
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sinmun-nav nav .navbar-nav .nav-item .dropdown-menu {
+    left: -15px;
+  }
+ 
+  .space-news-list .single-space-news ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .sinmun-mobile-nav {
+    display: block;
+    position: relative;
+    padding-top: 9px;
+  }
+  .sinmun-mobile-nav .logo {
+    position: relative;
+    z-index: 9910;
+    left: 15px;
+    width: 60%;
+  }
+  .sinmun-mobile-nav .logo a {
+    display: inline-block;
+  }
+  .sinmun-nav {
+    display: none !important;
+  }
+  
+
+}
+@media only screen and (max-width: 768px) {
+  .top-header .city-temperature {
+    display: block;
+    text-align:center;
+    padding: 20px 0;
+}
+  .text-right {
+     text-align: center !important; 
+     float:left !important;
+     padding-bottom:20px;
+  }
+  .mobile-none {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 668px) {
+.breaking-news-content .breaking-title {
+    width: 30%;
+  }
+  .breaking-news-content .breaking-content {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .mid-single{
+     
+      width: 50%;
+      float: left;
+      padding: 0px 15px;
+      
+  }
+  
+}
+@media (max-width: 575px){
+  .mid-single{
+     
+      width: 100%;
+      
+  }
+  .mid-thumbnail .thumb {
+    height: 210px;
+  }
+  
+}
+
+
+/*# sourceMappingURL=responsive.css.map */
