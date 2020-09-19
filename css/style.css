@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
 body{
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     overflow-x: hidden;
+    line-height: 1.8;
 }
 p{
 	text-align: left;
@@ -121,7 +122,7 @@ h6 {
 }
 
 .section-padding {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .section-tpadding {
@@ -275,7 +276,7 @@ section.main-section {
   display: block !important;
 }
 .search-area {
-    background: #f5f5ff;
+    background: #edf6fd;
 }
 .search form {
     border: 1px solid #F05323;
@@ -283,7 +284,7 @@ section.main-section {
     border-radius: 33px;
 }
 .search-area .search {
-  margin-top:21px;
+  margin-top: 17px;
 }
 .search label {
   width:20%;
@@ -316,14 +317,16 @@ section.main-section {
 }
 .training a {
   background: #4659A7;
-  padding: 11px 10px;
+  padding: 10px 14px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 16px;
   display: inline-block;
   text-transform: uppercase;
+  border-radius: 5px;
 }
+
 /*========= Slider Top Css ==========*/
-section.slider-area {
+.slider-area {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     padding: 120px 0;
@@ -587,10 +590,11 @@ section.slider-area {
   font-size: 16px;
   background-image: linear-gradient(to left, #F05323 0%, #4659A7 51%);
   color: #fff;
-  padding: 10px 28px;
+  padding: 10px 38px;
   display: inline-block;
   position: relative;
   background-size: 120%;
+  border-radius: 5px;
 }
 .common-button-1 a:hover {
   background-position: right center;
@@ -599,9 +603,110 @@ section.slider-area {
 
 /*=========portfolio end==========*/
 
+/*=========about us start==========*/
+.about-bg {
+  background: #edf6fd;
+}
+.about-section-left .image {
+  text-align: right;
+  position: relative;
+}
+.about-section-left .overlay-div {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45%;
+  background: #4659a7;
+  padding: 25px 15px 25px 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.about-section-left .overlay-div h4 {
+  color: #fff;
+  margin: 15px 0;
+}
+.about-section-left .overlay-div p {
+  color: #fff;
+  text-align: center;
+}
+
+.about-section-left .image img {
+  max-width: 90%;
+}
+.about-title span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.about-title h4 {
+  color: #4659A7;
+  position: relative;
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+
+.about-title h4::after {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #4659A7;
+  height: 2px;
+  width: 35px;
+  content: "";
+}
+.about-title span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.about-highlight h4 {
+  text-transform: capitalize;
+  line-height: 1.7;
+  font-weight: 600;
+  color: #64636f;
+  font-size: 25px;
+  margin: 10px 0;
+  display: inline-block;
+  background: #fff;
+  padding: 10px 30px;
+  border-left: 10px solid #4659A7;
+  border-radius: 5px;
+}
+.about-sort-intro {
+  margin-bottom: 10px;
+}
+.about-highlight-key {
+  margin-bottom: 45px;
+  margin-top:25px;
+}
+.about-highlight-key ul li {
+  display: block;
+  margin: 15px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.common-button-2 a {
+  display: inline-block;
+  background: #4659A7;
+  color: #fff;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 50px;
+  border: 2px solid #4659A7;
+}
+.common-button-2 a:hover {
+  border-color: #4659A7;
+  color: #222;
+  background: transparent;
+}
+/*=========about us us end==========
 /*=========why choose us start==========*/
 .why-choose-us {
-  background: #f5f5ff;
+  background: #edf6fd;
 }
 /*=========why choose us end==========*/
 
