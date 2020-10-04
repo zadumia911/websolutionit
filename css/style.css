@@ -710,6 +710,66 @@ section.main-section {
 }
 /*=========why choose us end==========*/
 
+/*=========our courses start==========*/
+.section-title {
+  text-align: center;
+  padding: 0 250px;
+  margin-bottom: 40px;
+}
+.section-title h3 {
+  color: #4659A7;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.section-title p {
+  text-align: center;
+  color: #4c3b51;
+}
+.single-course {
+  box-shadow: 0px 0px 26px 1px #ddd;
+  border-radius: 5px;
+}
+.title-description {
+  padding: 20px;
+}
+.title-description h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #000;
+}
+.course-inline {
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+}
+.course-inline ul li {
+  width: 33%;
+  float: left;
+  border-right: 1px solid #ddd;
+  padding-left: 20px;
+}
+.course-inline ul li:last-child{
+  border-right: 0px;
+}
+.course-inline ul li p {
+  text-transform: capitalize;
+}
+.course-inline ul li span {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.course-details a {
+  background: #4659A7;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 0;
+}
+/*=========our courses end==========*/
+
 
 /*========= Scroll Top Css ==========*/
 .scrolltop {
