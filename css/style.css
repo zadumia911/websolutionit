@@ -260,7 +260,8 @@ section.main-section {
   visibility: hidden;
   transition: all 0.5s ease;
   transform: translateX(-50%);
-}
+  border-top: 2px solid #4659A7;
+} 
 .main-menu ul li:hover .sub-menu {
   top: 44px;
   opacity: 1;
@@ -710,7 +711,7 @@ section.main-section {
 }
 /*=========why choose us end==========*/
 
-/*=========our courses start==========*/
+/*=========our package start==========*/
 .section-title {
   text-align: center;
   padding: 0 250px;
@@ -725,7 +726,7 @@ section.main-section {
   text-align: center;
   color: #4c3b51;
 }
-.single-course {
+.single-package {
   box-shadow: 0px 0px 26px 1px #ddd;
   border-radius: 5px;
 }
@@ -738,27 +739,27 @@ section.main-section {
   font-weight: 600;
   color: #000;
 }
-.course-inline {
+.package-inline {
   border-top: 1px solid #ddd;
   overflow: hidden;
 }
-.course-inline ul li {
+.package-inline ul li {
   width: 33%;
   float: left;
   border-right: 1px solid #ddd;
   padding-left: 20px;
 }
-.course-inline ul li:last-child{
+.package-inline ul li:last-child{
   border-right: 0px;
 }
-.course-inline ul li p {
+.package-inline ul li p {
   text-transform: capitalize;
 }
-.course-inline ul li span {
+.package-inline ul li span {
   text-transform: capitalize;
   font-weight: 600;
 }
-.course-details a {
+.package-details a {
   background: #4659A7;
   display: block;
   text-align: center;
@@ -768,7 +769,103 @@ section.main-section {
   margin: 0;
   padding: 10px 0;
 }
+.package-section .common-button-2 a {
+  margin-top: 30px;
+}
 /*=========our courses end==========*/
+
+/*=========Important ask start==========*/
+.section-padding.important-ask {
+  background: #EDF6FD;
+}
+.ask-right .card {
+  border-bottom: 0 !important;
+  margin-bottom: 10px;
+  border-radius: 0 !important;
+}
+.ask-right .card-header {
+  padding: 5px 12px;
+  background: #4659A7;
+  border-radius: 0 !important;
+}
+.ask-right .card-header button, .ask-right .card-header button:focus {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  outline: 0;
+  border: 0px solid #ddd;
+}
+/*=========Important ask end==========*/
+
+/*=========Client feedback start==========*/
+.contact-form {
+  box-shadow: 0px 0px 12px 1px #ddd;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 5px;
+}
+.contact-form h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact-form input,.contact-form input:focus,.contact-form select,.contact-form select:focus {
+  background: transparent;
+  border: 1px solid #ddd;
+  height: 47px !important;
+  border-radius: 5px;
+}
+.contact-form button, .contact-form button:focus {
+  background: #4659A7;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 48px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.contact-form textarea, .contact-form textarea:focus {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: transparent;
+}
+.client-info {
+  width: 350px;
+  overflow: hidden;
+}
+.client-info .client-image {
+  width: 30%;
+  float: left;
+}
+.client-info .client-name-location {
+  width: 70%;
+  float: left;
+  margin-top: 45px;
+  padding-left: 14px;
+}
+.client-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #4659A7;
+}
+.client-name-location h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.client-feedback-inner h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.client-feedback-inner .content p {
+  margin-bottom: 15px;
+  margin-top: 21px;
+}
+/*=========Client feedback end==========*/
 
 
 /*========= Scroll Top Css ==========*/
@@ -831,6 +928,8 @@ footer {
 .youtube {
   background: #e63868;
 }
+
+
 
 
 
