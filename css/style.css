@@ -269,8 +269,8 @@ section.main-section {
 .sub-menu {
   position: absolute;
   left: 50%;
-  top: 90px;
-  width: 440px;
+  top: 110%;
+  width: 450px;
   background: #fff;
   z-index: 1;
   padding: 5px 0;
@@ -280,9 +280,9 @@ section.main-section {
   transform: translateX(-50%);
   border-top: 2px solid #4659A7;
   text-align: left !important;
-} 
+}
 .main-menu ul li:hover .sub-menu {
-  top: 64px;
+  top: 100%;
   opacity: 1;
   visibility: visible;
 }
