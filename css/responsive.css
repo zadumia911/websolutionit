@@ -32,6 +32,10 @@
 
 }
 @media only screen and (max-width: 768px) {
+  
+  #sticker-sticky-wrapper {
+  display: none !important;
+ }
   .top-header .city-temperature {
     display: block;
     text-align:center;
@@ -42,9 +46,25 @@
      float:left !important;
      padding-bottom:20px;
   }
-  .mobile-none {
-  display: none;
-}
+  .mobile-menu {
+  display: block;
+  }
+  .mobile-menu .codehim-nav ul li {
+  display: block;
+  }
+  .main-nav {
+    display: none;
+  }
+  .swipe-menu {
+  z-index: 3;
+  height: auto !important;
+  }
+  .default-theme .nav-icon span {
+  background: #000 !important;
+  }
+  .default-theme {
+  background: #fff !important;
+  }
 }
 
 @media only screen and (max-width: 668px) {
