@@ -247,19 +247,17 @@ section.main-section {
 .main-nav {
   background: #fff;
 }
-.main-menu {
-  padding: 15px 0;
-}
+
 .main-menu ul {
   text-align: right;
 }
 .main-menu ul li a {
-    text-transform: capitalize;
-    padding: 10px 10px;
-    display: inline-block;
-    color: #000;
-    font-weight: 900;
-    font-size:16px;
+  text-transform: capitalize;
+  padding: 33px 10px;
+  display: inline-block;
+  color: #000;
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .main-menu ul li a i {
@@ -271,8 +269,8 @@ section.main-section {
 .sub-menu {
   position: absolute;
   left: 50%;
-  top: 90px;
-  width: 440px;
+  top: 110%;
+  width: 450px;
   background: #fff;
   z-index: 1;
   padding: 5px 0;
@@ -282,9 +280,9 @@ section.main-section {
   transform: translateX(-50%);
   border-top: 2px solid #4659A7;
   text-align: left !important;
-} 
+}
 .main-menu ul li:hover .sub-menu {
-  top: 64px;
+  top: 100%;
   opacity: 1;
   visibility: visible;
 }
@@ -334,17 +332,13 @@ section.main-section {
 .search i {
   color:#fff;
 }
-
 .training {
   background: #4659A7;
   padding: 10px 14px !important;
   color: #fff !important;
   margin-top: 16px;
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 5px;
+  margin-left: 5px;
 }
-
 .mobile-menu {
   display: none;
 }
@@ -768,6 +762,7 @@ section.main-section {
 .package-inline {
   border-top: 1px solid #ddd;
   overflow: hidden;
+  padding: 2px 0;
 }
 .package-inline ul li {
   width: 33%;
@@ -1159,6 +1154,199 @@ background-color: #393f4f;
 .goal-bg {
   background: #4659A7;
 }
+
+
+/*====Contact Css Start======*/
+
+#form input, #form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    color: #999;
+    transition: all linear .3s;
+    box-shadow: 0 0;
+    border-radius: 0;
+    border-color: #122069;
+}
+#form input {
+    border-radius: 0;
+    height: 45px;
+}
+#form input:focus, #form textarea:focus{
+    border-color: #122069;
+}
+#form textarea{
+    height: 150px;
+}
+.cmn_form button{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #122069;
+    background: transparent;
+    color: #122069;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    z-index: 1;
+}
+.cmn_form button:hover{
+    color: #fff;
+}
+.cmn_form button:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #122069;
+    z-index: -1;
+    transition: .3s;
+}
+.cmn_form button:hover:before{
+    width: 100%;
+}
+.section_title h3 {
+  margin-bottom: 20px;
+}
+
+/*-
+
+/*=========== mailing address=============*/
+/*====CONTACT CSS END====*/
+
+/*=========== mailing address=============*/
+
+====================================================================
+  Contact Area
+====================================================================
+
+***/
+
+.contact-area {
+    padding: 100px 0px;
+}
+
+.contact-area .sub-title h6 {
+    color: #122069;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.contact-area .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-area .contact-form input {
+    width: 100%;
+    height: 43px;
+    padding-left: 25px;
+    border: 1px solid #e5e5e5;
+    transition: all 500ms ease;
+    border-radius: 20px;
+}
+
+.contact-area .contact-form input:hover,
+.contact-area .contact-form input:focus {
+    border-color: #cca540;
+    transition: all 500ms ease;
+}
+
+.contact-area .contact-form textarea {
+    width: 100%;
+    height: 190px;
+    resize: none;
+    border-radius: 0px;
+    padding-left: 25px;
+    border: 1px solid #e5e5e5;
+    transition: all 500ms ease;
+    border-radius: 20px;
+}
+
+.contact-area .contact-form textarea:hover,
+.contact-area .contact-form textarea:focus {
+    border-color: #122069;
+    transition: all 500ms ease;
+}
+
+
+.contact-area .contact-text {
+    margin-left: 50px;
+}
+
+.contact-area .contact-text .sec-title p {
+    line-height: 28px;
+    margin-top: -8px;
+    padding-bottom: 10px;
+}
+
+.contact-area .contact-link .item {
+    position: relative;
+    padding-left: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.contact-area .contact-link .item strong {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-area .contact-link .item .icon-box {
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    width: 62px;
+    height: 62px;
+    line-height: 58px;
+    text-align: center;
+    background: #122069;
+    border: 4px solid #091658;
+    transition: all 0.35s ease;
+}
+
+.contact-area .contact-link .item:hover .icon-box {
+    border-color: #ffc107;
+    transition: all 500ms ease;
+}
+
+.contact-area .contact-link .item p a {
+    color: #cca540;
+    transition: all 500ms ease;
+}
+.contact-text p {
+  color: #222;
+}
+.company-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-area .contact-link .item p a:hover {
+    color: #cca540;
+    transition: all 500ms ease;
+}
+
+.contact-area .contact-link .item i {
+    font-size: 20px;
+    color: #ffffff
+}
+
+.contact-area .btn {
+    padding: 12px 33px;
+    border-radius: 40px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*====Contact Css End======*/
 
 
 
