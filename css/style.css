@@ -247,19 +247,17 @@ section.main-section {
 .main-nav {
   background: #fff;
 }
-.main-menu {
-  padding: 15px 0;
-}
+
 .main-menu ul {
   text-align: right;
 }
 .main-menu ul li a {
-    text-transform: capitalize;
-    padding: 10px 10px;
-    display: inline-block;
-    color: #000;
-    font-weight: 900;
-    font-size:16px;
+  text-transform: capitalize;
+  padding: 33px 10px;
+  display: inline-block;
+  color: #000;
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .main-menu ul li a i {
