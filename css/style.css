@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
 body{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -1347,6 +1349,55 @@ background-color: #393f4f;
 }
 
 /*====Contact Css End======*/
+
+/*====Service Css Start======*/
+.sdetails-first h3 {
+  font-weight: 700;
+}
+.sdetails-first p {
+  margin-bottom: 25px;
+  margin-top: ;
+}
+.sdetails-second h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.sdetails-second p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.sidebar-item {
+  box-shadow: 0px 0px 8px 1px #ddd;
+  padding: 20px;
+}
+.highlisht-title p {
+  background: #4659a7;
+  font-size: 19px;
+  color: #fff;
+  padding: 7px 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.sidebar-item ul li {
+  display: block;
+}
+.sidebar-item ul li a {
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px 0;
+  transition: 0.35s all;
+  font-weight: 600;
+  color: #555;
+}
+.sidebar-item ul li a:hover {
+  color: #4659A7;
+}
+.sidebar-item ul li:last-child a {
+  border-bottom: 0;
+}
+
+/*====Service Css End======*/
 
 
 
