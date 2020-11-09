@@ -65,7 +65,22 @@ jQuery(document).ready(function () {
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
     });
 
-   // Portfolio Slide End
+   // Portfolio Slide End  
+   $('.preview-image').owlCarousel({
+        items: 1,
+        loop: true,
+        dots: false,
+        autoplay: true,
+        nav: true,
+        autoplayHoverPause: false,
+        margin: 0,
+        smartSpeed: 1000,
+        autoplayTimeout: 5000,
+        mouseDrag: true,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    });
+
+   // Portfolio Priview Slide End
 
    $('.testimonials').owlCarousel({
         items: 1,

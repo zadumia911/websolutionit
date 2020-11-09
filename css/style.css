@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Raleway:400,500,600,700,900&display=swap');
 body{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -821,6 +819,16 @@ section.main-section {
   outline: 0;
   border: 0px solid #ddd;
 }
+.card button i {
+  float: right;
+  font-size: ;
+  height: ;
+  font-size: 12px;
+}
+.ask-right .title h3 {
+  margin-bottom: 30px;
+  margin-top: 12px;
+}
 /*=========Important ask end==========*/
 
 /*=========Client feedback start==========*/
@@ -1322,11 +1330,24 @@ position:absolute;
     position: relative;
     margin-bottom: 20px;
 }
-
 .contact-area .contact-text {
-  background: #f9f9f9;
+  background: url('../images/contact.webp');
   padding: 30px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.contact-text::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: rgba(70,89,167,0.8);
+  z-index: -1;
 }
 .main-contact-form input, .main-contact-form input:focus,.main-contact-form select, .main-contact-form select:focus {
   border: 1px solid #ddd;
@@ -1342,6 +1363,28 @@ position:absolute;
     margin-top: -8px;
     padding-bottom: 10px;
 }
+.contact-area .contact-text {
+  background: url('../images/contact.webp');
+  padding: 30px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.contact-text::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: rgba(70,89,167,0.8);
+  z-index: -1;
+}
+.contact-text .sub-title h6 {
+  color: #fff;
+}
 .main-contact-form button {
   background: #4659A7;
   color: #fff;
@@ -1353,10 +1396,12 @@ position:absolute;
 }
 .contact-area .contact-link .item {
   position: relative;
-  padding-left: 80px;
-  margin-bottom: 30px;
+  padding-left: 96px;
+  margin-bottom: 8px;
   cursor: pointer;
   display: block;
+  background: #fff;
+  padding-bottom: 25px;
 }
 .contact-area .contact-link .item strong {
   font-size: 14px;
@@ -1368,16 +1413,16 @@ position:absolute;
 }
 
 .contact-area .contact-link .item .icon-box {
-    position: absolute;
-    top: 14px;
-    left: 0px;
-    width: 62px;
-    height: 62px;
-    line-height: 58px;
-    text-align: center;
-    background: #4659A7;
-    border: 4px solid #4659A7;
-    transition: all 0.35s ease;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 62px;
+  height: 62px;
+  line-height: 58px;
+  text-align: center;
+  background: #4659A7;
+  border: 4px solid #4659A7;
+  transition: all 0.35s ease;
 }
 
 .contact-area .contact-link .item:hover .icon-box {
@@ -1460,8 +1505,165 @@ position:absolute;
 .sidebar-item ul li:last-child a {
   border-bottom: 0;
 }
-
+.sidebar-right-banner {
+  margin: 20px 0;
+  box-shadow: 0px 0px 8px 1px #ddd;
+}
+.sidebar-right-banner img {
+  width: 100%;
+}
 /*====Service Css End======*/
+
+/*====Preview Css Start======*/
+.work-details-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.work-details-content .title h4 {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: ;
+}
+.single-preview img {
+  width: 100%;
+}
+.preview-image .owl-nav {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.preview-image .owl-nav button {
+  background: rgb(70, 89, 167) !important;
+  height: 42px;
+  width: 55px;
+  margin: 0.5px;
+  color: #fff !important;
+}
+.preview-image .owl-nav .owl-prev{
+  border-radius: 50px 0px 0px 50px;
+}
+.preview-image .owl-nav .owl-next{
+  border-radius: 0px 50px 50px 0px;
+}
+.preview-btn-share {
+  margin: 15px 0;
+}
+.preview-btn {
+  background: #4659A7;
+  color: #fff;
+  padding: 8px 14px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.35s all;
+}
+.preview-btn:hover {
+  background: #F05323;
+  color: #fff;
+}
+.preview-share {
+  padding: 8px 0;
+}
+.preview-description {
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+.preview-description h3 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+}
+.feature-details ul li p {
+  margin: 8px 0;
+}
+.preview-video {
+  background: #222;
+  padding: 10px 10px;
+  margin: 10px 0;
+  margin-top: 15px;
+}
+.preview-description p {
+  margin-bottom: 15px;
+}
+.price-and-orderbtn {
+  border: 1px solid #ddd;
+  background: #FAFAFA;
+}
+.price-and-orderbtn h4 {
+  font-weight: 600;
+  font-size: 22px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.price-and-orderbtn h4 span {
+  color: #4659A7;
+  text-align: right;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.price-and-orderbtn .ordernow {
+  background: linear-gradient(to right,#4659A7,#F05323);
+  color: #fff;
+  padding: 10px 16px;
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.price-and-orderbtn .livepreview {
+  background: linear-gradient(to right,#4659A7,#F05323);
+  color: #fff;
+  padding: 10px 16px;
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.work-details-right-btn {
+  padding: 0 15px;
+  padding-bottom: 10px;
+}
+
+.featured-details {
+  background: #FAFAFA;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.featured-details ul {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  margin: 8px 0px;
+  padding: 10px 12px;
+}
+.featured-details ul li {
+  width: 48%;
+  float: left;
+}
+.featured-details ul li:first-child {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.featured-details ul li:last-child {
+  margin-left: 12px;
+}
+/*====Preview Css End======*/
 
 
 
